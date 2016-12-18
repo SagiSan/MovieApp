@@ -1,0 +1,290 @@
+
+
+
+html,body {
+	margin: 0;
+	padding:0;
+	height: 100%;
+	width: 100%;
+}
+p {
+	font-size: 18px;
+}
+
+.rating {
+	color: #e74c3c;
+}
+
+.gnr {
+	font-style: italic;
+	color: #7f8c8d;
+	font-size: 16px;
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 993px) {
+	.title {
+		margin: 20px 10px;
+		color: #114B5F;
+		font-size: 48px;
+		font-weight: 600;
+		text-shadow: 1px 1px #001242;
+	}
+	.nav {
+		margin: 20px 10px;
+	}
+	.nav a {
+		color: #02A9EA;
+		font-size: 22px;
+		text-shadow: 1px 1px black;
+	}
+	.search {
+		border-radius: 20px;
+		padding-left: 10px;	
+		margin-top: 20px 10px;
+	}
+
+	.movieImg {
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+	}
+	.movieImg iframe {
+		width: 100%;
+		height: 100%;
+	}
+
+	.genre {
+		width:100%;
+		margin: 0 auto;
+		
+	}
+
+	.overview {
+		margin: 10px auto;
+	}
+
+	.result  {
+		border: 2px solid #053C5E;
+		margin: 15px 5px;
+	}
+	.showImg {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.title {
+		margin: 20px 10px;
+		color: #114B5F;
+		font-size: 48px;
+		font-weight: 600;
+		text-shadow: 1px 1px #001242;
+	}
+	.nav {
+		margin: 20px 10px;
+	}
+	.nav a {
+		color: #02A9EA;
+		font-size: 22px;
+		text-shadow: 1px 1px black;
+	}
+	.search {
+		border-radius: 20px;
+		padding-left: 10px;	
+		margin-top: 20px 10px;
+	}
+
+	.movieImg {
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+	}
+	.movieImg iframe {
+		width: 100%;
+		height: 100%;
+	}
+
+	.genre {
+		width:100%;
+		margin: 0 auto;
+	
+	}
+
+	.overview {
+		margin: 10px auto;
+	}
+
+	.result  {
+		border: 2px solid #053C5E;
+		margin: 15px 5px;
+	}
+	.showImg {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.title {
+		margin: 20px 10px;
+		color: #114B5F;
+		font-size: 48px;
+		font-weight: 600;
+		text-shadow: 1px 1px #001242;
+	}
+	.nav {
+		margin: 20px 10px;
+	}
+	.nav a {
+		color: #02A9EA;
+		font-size: 22px;
+		text-shadow: 1px 1px black;
+	}
+	.search {
+		border-radius: 20px;
+		padding-left: 10px;	
+		margin-top: 20px 10px;
+	}
+
+	.movieImg {
+		width: 100%;
+		height: 85%;
+		margin: 0 auto;
+	}
+	.movieImg iframe {
+		width: 100%;
+		height: 100%;
+	}
+
+	.genre {
+		width:100%;
+		margin: 0 auto;
+		
+	}
+
+	.overview {
+		margin: 10px auto;
+	}
+
+	.result  {
+		border: 2px solid #053C5E;
+		margin: 15px 5px;
+	}
+	.showImg {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.title {
+		margin: 20px 10px;
+		color: #114B5F;
+		font-size: 48px;
+		font-weight: 600;
+		text-shadow: 1px 1px #001242;
+	}
+	.nav {
+		margin: 20px 10px;
+	}
+	.nav a {
+		color: #02A9EA;
+		font-size: 22px;
+		text-shadow: 1px 1px black;
+	}
+	.search {
+		border-radius: 20px;
+		padding-left: 10px;	
+		margin-top: 20px 10px;
+	}
+
+	.movieImg {
+		width: 100%;
+		height: 50%;
+		margin: 0 auto;
+	}
+	.movieImg iframe {
+		width: 100%;
+		height: 100%;
+	}
+
+	.genre {
+		width:100%;
+		margin: 0 auto;
+		
+	}
+
+	.overview {
+		margin: 10px auto;
+	}
+
+	.result  {
+		border: 2px solid #053C5E;
+		margin: 15px 5px;
+	}
+	.showImg {
+		width: 100%;
+		height: 50%;
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+	.title {
+		margin: 20px 10px;
+		color: #114B5F;
+		font-size: 48px;
+		font-weight: 600;
+		text-shadow: 1px 1px #001242;
+	}
+	.nav {
+		margin: 20px 10px;
+	}
+	.nav a {
+		color: #02A9EA;
+		font-size: 22px;
+		text-shadow: 1px 1px black;
+	}
+	.search {
+		border-radius: 20px;
+		padding-left: 10px;	
+		margin-top: 20px 10px;
+	}
+
+	.movieImg {
+		width: 100%;
+		height: 50%;
+		margin: 0 auto;
+	}
+	.movieImg iframe {
+		width: 100%;
+		height: 100%;
+	}
+
+	.genre {
+		width:100%;
+		margin: 0 auto;
+		
+	}
+
+	.overview {
+		margin: 10px auto;
+	}
+
+	.result  {
+		border: 2px solid #053C5E;
+		margin: 15px 5px;
+	}
+	.showImg {
+		width: 100%;
+		height: 50%;
+	}
+}
+

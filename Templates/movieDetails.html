@@ -1,0 +1,15 @@
+
+<div class="movieImg">
+<!-- 	<img width="300px" height="200px" src="{{imgUrl}}">
+-->
+	<iframe ng-src="{{videoUrl2}}"></iframe>
+</div>
+<div class="genre">
+	<h3 class="text-left rating">{{movieDetails.vote_average}}  rating</h3>
+</div>
+<h1 class="">{{movieDetails.title}}</h1>
+<span class="gnr" ng-repeat="genre in genres"> #{{genre.name}} </span>
+
+<div class="overview">
+	<h3>Movie Overview:</h3><p>{{movieDetails.overview}}</p>
+</div>

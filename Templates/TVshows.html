@@ -1,0 +1,25 @@
+<div>
+	<input class="form-control search" type="text" ng-model="searchTag" ng-change="update()" ng-model-options="{debounce: 300}") name="search" placeholder="search">
+
+</div>
+
+<!-- 
+<div class="resp" ng-repeat="result in datasrc">
+	<a ui-sref="showDetails({id:result.id})"><h3>{{result.name}}</h3>
+		<img width="300px" height="200px" alt="No Image" src="{{imgUrl}}{{result.poster_path}}">
+	</a>
+</div> -->
+
+
+<div class="row">
+
+	<div class="col-md-6 col-xs-12"  ng-repeat="result in datasrc">
+		<div class="result">
+			<a  ui-sref="showDetails({id:result.id})">
+				<img class="movieImg" width="300px" height="200px" alt="No Image" src="{{imgUrl}}{{result.poster_path}}">
+				<h3 class="text-center">{{result.name}}</h3>
+			</a>
+		</div>
+	</div>
+
+</div>

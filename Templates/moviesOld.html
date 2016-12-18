@@ -1,0 +1,12 @@
+	<input class="form-control search" type="text" ng-model="searchTag" ng-change="update()" ng-model-options="{debounce: 300}") name="search" placeholder="search">
+
+<h1>{{title}}</h1>
+
+<!-- loop trough movieList provided by controller and display it in list
+ -->
+<ol class="fadeIn">
+	<li ng-repeat="movie in movieList">
+		<a ui-sref="movieDetails({id:movie.id})">{{movie.title}}</a>
+<!-- 			<a href="Templates/movieDetails.html({id:movie.id})">{{movie.title}}</a>
+ -->	</li>
+</ol> 

@@ -1,0 +1,23 @@
+<div class="movieImg">
+ 	<img class="showImg" src="{{imgUrl}}">
+
+<!-- <iframe width="420" height="315" ng-src="{{videoUrl2}}"></iframe> -->
+</div>
+<!-- <div class="genre">
+	(<span  ng-repeat="genre in genres">-{{genre.name}} </span>) {{showDetails.vote_average}} rating
+	<br>
+</div>
+<h1 class="text-center">{{showDetails.title}}</h1>
+
+<div class="overview">
+	<span>{{showDetails.overview}}</span>
+</div> -->
+<div class="genre">
+	<h3 class="text-left rating">{{showDetails.vote_average}}  rating</h3>
+</div>
+<h1 class="">{{showDetails.name}}</h1>
+<span class="gnr" ng-repeat="genre in genres"> #{{genre.name}} </span>
+
+<div class="overview">
+	<h3>Show Overview:</h3><p>{{showDetails.overview}}</p>
+</div>
